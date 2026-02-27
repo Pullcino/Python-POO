@@ -29,4 +29,16 @@ Requisitos:
 """
 
 
-class List_manipulator
+class List_manipulator():
+
+
+    def __init__(self, list = []):
+
+        self.list = list
+
+    def add_elements(self):
+
+        number = int(input("Digit the number you want to add: "))
+
+        self.list.append(number)
+        
